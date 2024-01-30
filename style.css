@@ -9,6 +9,11 @@ html, body {
     overflow: auto;
 }
 
+.beck-nav {
+    background: rgb(118, 135, 122); /* Fallback color */
+    background: linear-gradient(to right, rgb(118, 135, 122), rgb(65, 65, 60));
+}
+
 .custom-button {
     width: 100px;
     border-radius: 15px;
@@ -25,5 +30,9 @@ input.form-control:focus {
 
 .no-border {
     border: none;    
+}
+
+.card {
+    border: none;
 }
   
